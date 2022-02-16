@@ -6,17 +6,24 @@
   font-family: 'Roboto', sans-serif;
 }
 body{
-  /* background-color:rgb(9, 93, 9) ; */
-  background: linear-gradient(to left, #159957, #155799);
+  background: linear-gradient(to left, #159957, #155799); 
+}
 
+.navbar {
+  background: linear-gradient(150deg, #155799, #00c298, #f10271 );
+  background-size: 400% 300%;
+  animation: multicolores 5s ease infinite;
+}
+
+@keyframes multicolores {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
 }
 
 
-.letra{
-  color: blue;
-}
 
-.section_noticias{
+  .section_noticias{
   background-color:rgb(7, 116, 7) ;
 }
 
