@@ -6,101 +6,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rick_and_Morty</title>
     <link rel="shortcut icon" href="../images/rym.jpg" type="image/x-icon" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css" />
+    
   </head>
   <body>
-    <div id="main">
-      <!-- HEADER -->
+    <!-- nav bar  -->
+<header class="header">
+  <nav class="navbar navbar-expand-sm navbar-light ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html"> <img src="../images/logo15.png" class="rounded-pill" alt="" width="180">  </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-      <header class="header">
-        <div class="logo">
-          <a href="../index.html"><img src="../images/logorym1.png" alt="LogoRickMorty" /></a>
-        </div>
-
-        <nav>
-          <div class="nav_link">
-            <ul>
-              <li><a href="../index.html">Inicio</a></li>
-              <li><a href="../pages/temporadas.html">Temporadas</a></li>
-              <li><a href="../pages/personajes.html">Personajes</a></li>
-              <li><a href="../pages/noticias.html">Noticias</a></li>
-              <li><a href="../pages/galeria.html">Galeria</a></li>
-              <li><a href="acerca.html">Acerca</a></li>
-            </ul>
-          </div>
-        </nav>
-      </header>
+      <div class="collapse navbar-collapse " id="navbarNav">
+        <ul class="navbar-nav mx-auto ">
+          <li class="nav-item ">
+            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item  ">
+            <a class="nav-link " href="../pages/noticias.html">Noticias</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="../pages/temporadas.html">Temporadas</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link "href="../pages/galeria.html" >Galeria</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="acerca.html" >Acerca</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header> 
 
       <!-- SECTION -->
 
-
-
-      <section class="section">
-        <article class="articulo_principal">
+    <section class="container section_noticias p-5 mb-5 mt-5">      
+        <div class="row ">  
+            <h2 class="text-center pt-5 pb-5 fs-1 fw-bold">Acerca de la Web</h2>
+                <div class="col-md-4 pb-4" >
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque consequatur reprehenderit ullam modi, corrupti asperiores magnam fugit, ipsum quo soluta amet odio laudantium doloribus officiis numquam ad quibusdam nobis quod!</p>
+                </div> 
+        </div>
+    </section>    
+      
           
-            <div class="contenedor_acerca" >
-              <div class="contenedor">
-                <h1>Acerca de la web</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic illo eligendi cupiditate vero, aspernatur quibusdam dolorem voluptates illum. Dolorem voluptate cum nemo ratione. Vero maiores quasi quibusdam soluta aut mollitia illo impedit, nesciunt fugiat voluptatem voluptatum repellendus. Laborum sunt nemo deserunt sint unde rerum velit impedit molestias voluptas, laudantium modi aspernatur suscipit et nulla assumenda ipsam. Magnam sint velit corrupti similique fugiat dicta quaerat, tempora praesentium? Hic ipsam impedit dicta! Nam iste error quia! Et, earum. Error tenetur earum ea! Magni sint aperiam corrupti fugit labore placeat eveniet soluta corporis eum, provident ipsam optio reprehenderit laboriosam minus, aliquid et. Ut?
-                </p>
-              
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ipsa doloremque blanditiis aperiam cumque odio unde quae dolorum fugiat magni, aspernatur dolor debitis quidem ad. Eum quia laboriosam corporis aliquid!</p>
-                <img class="contenedorimg" src="../images/pegatina-ricky-y-morti-portales.png" alt="pegatina-ricky-y-morti-portales">
-                </p>
-                <br />
-                <br />
+    
+      
+
+ <!-- FOOTER  -->
+      <div id="footer" >
+        <div class="container pb-5">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="col-8 pt-4"  >
+                <p class="fw-bold">Mira Rick And Morty en :</p>
+                <div class="col-12"> 
+                  <a href="https://www.netflix.com/pe/title/80014749" target="_blank">
+                    <img class="imagen_footer" src="../images/netflix.png"  width="30%" alt="...">
+                  </a>
+                  <a href="https://www.hbomax.com/pe/es/series/urn:hbo:series:GXkRjxwjR68PDwwEAABKJ?countryRedirect=1" target="_blank">
+                    <img class="imagen_footer" src="../images/hbo.png"  width="30%" alt="..."> 
+                  </a>
+                </div>
               </div>
             </div>
-          
-        </article>
-
-        <br />
-        <br />
-      </section>
-      <hr>
-      <!-- FOOTER  -->
-
-      <footer class="footer">
-        <div class="redes">
-          <div class="streamer">
-            <p>MIRA RICK AND MORTY EN:</p>
-            <br />
-
-            <a href="https://www.netflix.com/pe/title/80014749" target="_blank"
-              ><img
-                class="imagen_redes"
-                src="../images/netflix.png"
-                alt="netflix"
-            /></a>
-            <a
-              href="https://www.hbomax.com/pe/es/series/urn:hbo:series:GXkRjxwjR68PDwwEAABKJ?countryRedirect=1"
-              target="_blank"
-              ><img class="imagen_redes" src="../images/hbo.png" alt="netflix"
-            /></a>
-          </div>
-
-          <div class="sociales">
-            <p>SIGUE A RICK AND MORTY EN:</p>
-            <br />
-
-            <a href="https://www.youtube.com" target="_blank"
-              ><img
-                class="imagen_redes"
-                src="../images/youtube.png"
-                alt="YouTube"
-            /></a>
-            <a
-              href="https://www.facebook.com"
-              target="_blank"
-              ><img
-                class="imagen_redes"
-                src="../images/face.png"
-                alt="facebook"
-            /></a>
+  
+            <div class="col-md-6">
+              <div class="col-8 pt-4"  >
+                <p class="fw-bold"> Sigue Rick And Morty en :</p>
+                <div class="col-12"> 
+                  <a href="https://youtube.com" target="_blank"><img class="imagen_footer" src="../images/youtube.png"  width="30%" alt="..."></a>
+                  <a href="https://facebook.com" target="_blank"><img class="imagen_footer" src="../images/face.png"  width="30%" alt="..."></a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </footer>
-    </div>
+      </div>
+      
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
   </body>
 </html>
 
