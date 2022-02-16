@@ -12,7 +12,7 @@ body{
 .navbar {
   background: linear-gradient(150deg, #155799, #00c298, #f10271 );
   background-size: 400% 300%;
-  animation: multicolores 5s ease infinite;
+  animation: multicolores 10s ease infinite;
 }
 
 @keyframes multicolores {
