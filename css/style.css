@@ -143,4 +143,17 @@ nav.navbar ul.nav li {
 .imagen_footer:hover{
  width: 35%;
 }
+/* Galeria */
 
+.border_galeria{
+  border: solid 5px rgb(235, 238, 235) ;
+  border-radius: 20px ;
+  overflow: hidden;
+  transition: all ease-out 0.9s;
+
+}
+
+.border_galeria:hover{
+  transform:scale(1.5);
+
+}
