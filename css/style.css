@@ -126,6 +126,17 @@ nav.navbar ul.nav li {
 }
 
 
+.border_card_temporadas_web{
+  border: solid 5px  rgb(7, 116, 7)  ;
+  
+  border-radius: 20px ;
+  overflow: hidden;
+  transition: all ease-out 0.9s;
+
+}
+
+
+
 
 
 #footer{
